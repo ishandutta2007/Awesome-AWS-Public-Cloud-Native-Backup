@@ -23,38 +23,19 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-- **[Druva Public Cloud Backup](https://www.druva.com/)**  
-  SaaS data protection platform with cloud-native backup for AWS workloads (EC2, RDS, S3, DynamoDB), Microsoft 365, and endpoints; built on AWS with global deduplication and air-gapped immutable storage [citation:1][citation:15].
-
-- **[Veeam Backup for AWS & Azure](https://www.veeam.com/)**  
-  Native AWS/Azure backup with policy-based automation, immutable repositories, and expanded workload support including Amazon Redshift Serverless and Azure Cosmos DB for MongoDB; integrates with Veeam Backup & Replication for hybrid management [citation:2].
-
-- **[Commvault Cloud](https://www.commvault.com/)**  
-  Unified multi-cloud data protection across AWS, Azure, and GCP with automatic subscription discovery, built-in cost estimation, immutable vaults, and compliance support for DORA, GDPR, HIPAA, and FedRAMP [citation:3].
-
-- **[Cohesity DataProtect](https://www.cohesity.com/)**  
-  High-performance data protection with broad cloud workload coverage (AWS EC2, RDS, Redshift, DynamoDB; Azure VMs, SQL; GCP CloudSQL, BigQuery, Spanner), near-zero RPO/RTO, and WORM immutability [citation:4].
-
-- **[Rubrik Cloud Cluster](https://www.rubrik.com/)**  
-  Software-defined Rubrik CDM cluster deployable in AWS via Terraform (`polaris_aws_cloud_cluster`), with elastic storage, Multi-AZ resiliency options, and RSC-managed lifecycle [citation:5].
-
-- **[Clumio Cloud Backup](https://www.clumio.com/)**  
-  Fully managed, air-gapped cloud backup for AWS and Google Cloud with API-first architecture, Terraform provider, 15-minute RPO for supported workloads, and restore of 100M S3 objects in ~3 hours [citation:6].
-
-- **[HYCU R-Cloud (Protégé)](https://www.hycu.com/)**  
-  Multi-cloud data protection platform protecting 100+ workloads across AWS, Azure, GCP, SaaS apps, and on-premises; agentless, WORM-backed, with Ransomware readiness architecture [citation:7].
-
-- **[Acronis Cloud Backup](https://www.acronis.com/)**  
-  Cyber protection platform with cloud backup, disaster recovery, and AI-based ransomware detection for endpoints, servers, and cloud workloads.
-
-- **[Dell PowerProtect Cloud](https://www.dell.com/)**  
-  Enterprise data protection with Cloud Tier recall and restore workflows via PowerProtect Data Manager, supporting long-term retention on cloud object storage [citation:9].
-
-- **[Rewind Cloud Backup](https://rewind.com/)**  
-  SaaS data backup for cloud applications (Shopify, QuickBooks, Jira, GitHub, Microsoft 365, etc.) with encrypted cloud storage, data residency options, and incremental backups [citation:10].
-
-- **[Kasten K10 by Veeam](https://www.kasten.io/)**  
-  Kubernetes-native backup and DR platform with application auto-discovery, policy-based automation, and cross-cluster/cloud mobility for AKS, EKS, GKE, and OpenShift [citation:11].
+| Product | Starting Price | Free Tier / Trial Limits | Key Cloud-Native Capabilities |
+| :--- | :--- | :--- | :--- |
+| **[Druva Public Cloud Backup](https://www.druva.com/)** | Starts at $8.00/user/mo (SaaS/Endpoints) or ~$200/TB-mo credit commitment (AWS workloads) | 30-day free trial (extendable up to 60 days upon request, no credit card required) | SaaS data protection for AWS workloads (EC2, RDS, S3, DynamoDB) with global deduplication and air-gapped immutable storage. |
+| **[Veeam Backup for AWS & Azure](https://www.veeam.com/)** | Starts at $155 - $228/workload/year (Veeam Universal License - VUL 10-packs) | Free forever for up to 10 AWS workloads (EC2/RDS/EFS); full backup & file restore capabilities | Native AWS policy-based automation, Amazon Redshift Serverless and DynamoDB support, immutable S3 object lock repositories. |
+| **[Commvault Cloud](https://www.commvault.com/)** | Starts at $1.70/user/mo (M365) or ~$58.50/TB/mo (databases & cloud file/object storage) | 30-day free trial (full access to multi-cloud workloads, ransomware detection & recovery) | Unified multi-cloud protection across AWS, Azure, GCP with automatic discovery, cost estimation, and immutable cloud vaults. |
+| **[Cohesity DataProtect](https://www.cohesity.com/)** | Starts at ~$200 - $500/TB/year (DataProtect as a Service); AWS Marketplace bundles from ~$29,100/yr | 30-day free trial (DataProtect as a Service / DPaaS evaluation) | High-performance snapshot and backup orchestration across AWS EC2, RDS, Redshift, and DynamoDB with near-zero RPO/RTO and WORM storage. |
+| **[Rubrik Cloud Cluster](https://www.rubrik.com/)** | Starts at ~$130/BETB/mo (~$1,560/TB/year for Foundation tier; enterprise deals from ~$50k/yr) | Guided sandbox interactive demo & sales-managed POC (no self-serve free forever tier) | Software-defined Rubrik cluster deployable via Terraform (`polaris_aws_cloud_cluster`), elastic S3 storage tiering, RSC lifecycle automation. |
+| **[Clumio Cloud Backup](https://www.clumio.com/)** | Starts at $0.025/GiB-mo + $1.50/M objects (S3 Standard) or $0.045/GiB-mo (EC2/EBS) | 14-day free trial (up to 16 AWS regions connected, 30 concurrent backup tasks, no credit card required) | Serverless, air-gapped backup for AWS S3, EC2, EBS, and DynamoDB with rapid petabyte-scale restores (100M S3 objects restored in ~3 hours). |
+| **[HYCU R-Cloud (Protégé)](https://www.hycu.com/)** | Starts at $1.20/user/mo (IAM/Identity), $2.25/user/mo (M365), or $4.00/user/mo (DevOps/GitHub) | 14-day free trial (service fees waived for connected cloud & SaaS workloads; 30-day trial for identity suites) | Multi-cloud and SaaS data protection covering 100+ sources including AWS EC2, S3, RDS, Azure, GCP, and developer toolchains. |
+| **[Acronis Cloud Backup](https://www.acronis.com/)** | Starts at ~$2.00/workload/mo (SaaS seats) to ~$20.00/workload/mo (VMs/servers), or per-GB models | 30-day free trial (complete feature access across VMs, cloud servers, and pooled cloud storage quotas) | Unified backup, disaster recovery, and integrated AI-based active ransomware protection for cloud workloads and endpoints. |
+| **[Dell PowerProtect Cloud](https://www.dell.com/)** | Starts at ~$48/user/year (SaaS apps) or ~$1,500/TB/yr (PowerProtect DDVE capacity tiers) | 90-day free trial (PowerProtect Cloud Snapshot Manager & Data Manager evaluation license) | Enterprise data protection with Cloud Tier recall, Data Domain Virtual Edition (DDVE) deduplication, and AWS/Azure snapshot orchestration. |
+| **[Rewind Cloud Backup](https://rewind.com/)** | Starts at $3.00/user/mo (GitHub/Jira) or $19.00/mo (e-commerce store tier up to 300 orders/mo) | 7-day free trial (full automated backup and on-demand recovery testing) | Cloud-native automated backup for GitHub repos, Jira, Microsoft 365, and SaaS environments with continuous incremental snapshots. |
+| **[Kasten K10 by Veeam](https://www.kasten.io/)** | Starts at $0.26/worker node/hour (AWS Marketplace PAYG) or $2,250/worker node/year | Free forever for up to 5 Kubernetes worker nodes (full enterprise features, community support) | Kubernetes-native backup and DR platform with application auto-discovery, CSI snapshot integration, and multi-cloud mobility across EKS, GKE, AKS. |
 
 ## Open-Source GitHub Projects
 
