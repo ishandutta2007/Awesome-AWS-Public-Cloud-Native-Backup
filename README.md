@@ -16,10 +16,15 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
 
 ## Table of Contents
-- [SaaS/Hosted Platforms](#saas-products)
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS/Hosted Platforms](#saashosted-platforms)
 - [Open-Source GitHub Projects](#open-source-github-projects)
 - [How to Contribute](#how-to-contribute)
 - [Disclaimer](#disclaimer)
+
+## Sector Overview & Market Dynamics
+
+The global cloud backup and data protection market is estimated at **$7.1B to $8.7B in 2026** (scaling to over **$190B+** across the wider data protection and cybersecurity sector at an 11%–24% CAGR). The market is **moderately fragmented and rapidly consolidating into platform-centric architectures** rather than a pure winner-take-all environment: while hyperscalers and top enterprise platforms (Dell, Veeam, Rubrik, Cohesity-Veritas, Commvault) capture dominant enterprise spend through cross-cloud immutability and cyber-vaulting, specialized vendors continue to thrive across niche cloud databases, Kubernetes, and SaaS application data protection.
 
 ## SaaS/Hosted Platforms
 
