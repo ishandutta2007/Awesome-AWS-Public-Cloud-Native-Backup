@@ -1,17 +1,23 @@
-# Awesome-AWS-Public-Cloud-Native-Backup
-# Awesome-AWS-Public-Cloud-Native-Backup
+# Awesome AWS & Public Cloud-Native Backup Solutions
 
-## Top AWS & Public Cloud Native Backup Ecosystem
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-AWS-Public-Cloud-Native-Backup/pulls)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ishandutta2007/Awesome-AWS-Public-Cloud-Native-Backup/graphs/commit-activity)
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Cloud-Native Data Protection, Immutable Backups & Cross-Cloud Recovery*  
-**Last updated: March 2026**
+> A curated list of enterprise SaaS platforms and open-source GitHub projects for AWS, Azure, Google Cloud (GCP), and multi-cloud data protection, immutable cyber-recovery vaults, Kubernetes disaster recovery, and policy-as-code automation.
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **AWS & Public Cloud Native Backup**. These tools help organizations protect workloads running on AWS, Azure, and Google Cloud—covering snapshot orchestration, cross-region replication, immutable vaults, Kubernetes protection, and application-consistent database backups.
+---
 
-**Examples** include Druva Public Cloud Backup, Veeam Backup for AWS & Azure, Commvault Cloud, Cohesity DataProtect, Rubrik Cloud Cluster, Clumio Cloud Backup, HYCU R-Cloud (Protégé), Acronis Cloud Backup, Dell PowerProtect Cloud, Rewind Cloud Backup, and Kasten K10 (the category leaders).
+## Overview
 
-**Open-source emphasis**: This section highlights every major active project for self-hosted AWS backup automation, Kubernetes data protection, and Terraform-driven backup policies—ideal for platform engineers, SREs, cloud architects, and developers building transparent, vendor-neutral cloud data protection workflows.
+Welcome to the **Awesome AWS & Public Cloud-Native Backup Ecosystem**. Protecting modern cloud workloads requires automated snapshot orchestration, ransomware-proof immutable vaults (WORM/S3 Object Lock), zero-RPO database replication, and application-consistent Kubernetes data management.
+
+This guide indexes:
+- **Enterprise SaaS Platforms**: Scalable, managed backup-as-a-service (BaaS) and disaster-recovery-as-a-service (DRaaS) across AWS EC2, S3, RDS, DynamoDB, Microsoft 365, and SaaS suites.
+- **Open-Source GitHub Tools**: Self-hosted CLI utilities, Terraform modules, and CNCF Kubernetes operators for engineers who build transparent, vendor-neutral backup pipelines.
+
+*Last updated: March 2026*
 
 Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
 
