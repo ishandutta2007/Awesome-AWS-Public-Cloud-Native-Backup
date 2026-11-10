@@ -44,35 +44,55 @@ The global cloud backup and data protection market is estimated at **$7.1B to $8
 
 ## Open-Source GitHub Projects
 
-- **[Velero](https://github.com/vmware-tanzu/velero)**  
-  Open-source Kubernetes backup and restore tool (formerly Heptio Ark) for cluster resources and persistent volumes, with cloud provider integrations (AWS, Azure, GCP) and cross-cluster migration support [citation:13].
+Curated open-source projects for self-hosted cloud backup automation, Kubernetes data protection, encrypted multi-cloud sync, and disaster recovery validation—sorted by GitHub stars:
 
-- **[terraform-aws-backup](https://github.com/lgallard/terraform-aws-backup)**  
-  Terraform module for creating AWS Backup plans with centralized policy management across EBS, RDS, DynamoDB, EFS, and Storage Gateway volumes [citation:12].
+- **[Rclone](https://github.com/rclone/rclone)** [![GitHub stars](https://img.shields.io/github/stars/rclone/rclone?style=social&color=white)](https://github.com/rclone/rclone/stargazers)  
+  "Rsync for cloud storage"—powerful command-line program to sync and back up files and directories to and from AWS S3, Google Cloud Storage, Azure Blob, Backblaze B2, and over 70 cloud storage providers with server-side encryption and multipart uploads.
 
-- **[aws-backup-automation](https://github.com/aws-samples/aws-backup-automation)**  
-  AWS CloudFormation templates and Python code for automating centralized backup at scale across AWS services using AWS Backup [citation:12].
+- **[Restic](https://github.com/restic/restic)** [![GitHub stars](https://img.shields.io/github/stars/restic/restic?style=social&color=white)](https://github.com/restic/restic/stargazers)  
+  Fast, secure, and efficient backup CLI program providing deduplication, snapshotting, and client-side cryptography targeting AWS S3, MinIO, and other cloud object stores.
 
-- **[backup-and-bcp-for-aws](https://github.com/ned-kelly/backup-and-bcp-for-aws)**  
-  Lambda-executed scripts for backing up AWS services (Route53, EBS, RDS, EFS) to S3, with optional cross-cloud sync to GCP for business continuity [citation:12].
+- **[Duplicati](https://github.com/duplicati/duplicati)** [![GitHub stars](https://img.shields.io/github/stars/duplicati/duplicati?style=social&color=white)](https://github.com/duplicati/duplicati/stargazers)  
+  Cross-platform backup client with web UI and CLI that securely stores encrypted, incremental, compressed backups in AWS S3, Google Cloud, Azure, and standard cloud protocols.
 
-- **[aws-backup-actions-framework](https://github.com/aws-samples/aws-backup-actions-framework)**  
-  Framework for automating actions triggered by AWS Backup events (e.g., post-backup validation, notification, remediation) [citation:12].
+- **[Kopia](https://github.com/kopia/kopia)** [![GitHub stars](https://img.shields.io/github/stars/kopia/kopia?style=social&color=white)](https://github.com/kopia/kopia/stargazers)  
+  Fast and secure open-source backup and restore tool for Windows, macOS, and Linux with end-to-end client-side encryption, content-defined deduplication, and native support for AWS S3 and cloud storage backends.
 
-- **[aws-backup-alarms](https://github.com/aws-samples/aws-backup-alarms)**  
-  Centralized alerting solution for failed backup jobs and unauthorized changes to AWS Organizations backup policies [citation:12].
+- **[BorgBackup](https://github.com/borgbackup/borg)** [![GitHub stars](https://img.shields.io/github/stars/borgbackup/borg?style=social&color=white)](https://github.com/borgbackup/borg/stargazers)  
+  Deduplicating backup program supporting authenticated encryption, compression, and offsite remote backup workflows suitable for self-managed cloud server snapshots.
 
-- **[terraform-aws-backup (clouddrove)](https://github.com/clouddrove/terraform-aws-backup)**  
-  Alternative Terraform module for provisioning AWS Backup resources with configurable rules and vaults [citation:12].
+- **[Velero](https://github.com/vmware-tanzu/velero)** [![GitHub stars](https://img.shields.io/github/stars/vmware-tanzu/velero?style=social&color=white)](https://github.com/vmware-tanzu/velero/stargazers)  
+  De facto cloud-native Kubernetes backup and restore platform (formerly Heptio Ark) for backing up cluster resources and persistent volumes (EBS/CSI) to AWS S3, cross-cluster migrations, and disaster recovery.
 
-### Additional Strong Open-Source Options
+- **[Chaos Mesh](https://github.com/chaos-mesh/chaos-mesh)** [![GitHub stars](https://img.shields.io/github/stars/chaos-mesh/chaos-mesh?style=social&color=white)](https://github.com/chaos-mesh/chaos-mesh/stargazers)  
+  Cloud-native chaos engineering platform for Kubernetes to inject faults and automate backup verification and disaster recovery drill validation under simulated outages.
 
-- **[Restic](https://github.com/restic/restic)** and **[BorgBackup](https://github.com/borgbackup/borg)** for encrypted, deduplicated backups to S3/GCS/Azure Blob as a self-managed cloud backup layer.
-- **[ReaR (Relax-and-Recover)](https://github.com/rear/rear)** for Linux disaster recovery with cloud storage backends.
-- **[LitmusChaos](https://github.com/litmuschaos/litmus)** and **[Chaos Mesh](https://github.com/chaos-mesh/chaos-mesh)** for automated backup/recovery drill validation in Kubernetes.
-- Many community **AWS Lambda backup scripts** and **Terraform modules** for RDS snapshots, EBS lifecycle policies, and cross-region replication.
+- **[LitmusChaos](https://github.com/litmuschaos/litmus)** [![GitHub stars](https://img.shields.io/github/stars/litmuschaos/litmus?style=social&color=white)](https://github.com/litmuschaos/litmus/stargazers)  
+  Cloud Native Computing Foundation (CNCF) chaos engineering framework enabling SREs to automate disaster recovery resilience testing, stateful volume failovers, and backup validation in Kubernetes.
 
-**Frameworks for building custom systems**: Combine **Velero** for Kubernetes workloads, **terraform-aws-backup** for policy-as-code, **Restic** for application-level encryption, and **AWS Backup** native services for centralized compliance reporting.
+- **[ReaR (Relax-and-Recover)](https://github.com/rear/rear)** [![GitHub stars](https://img.shields.io/github/stars/rear/rear?style=social&color=white)](https://github.com/rear/rear/stargazers)  
+  Bare-metal Linux disaster recovery and system migration tool with direct integration for cloud-hosted instances and remote cloud storage targets.
+
+- **[Kanister](https://github.com/kanisterio/kanister)** [![GitHub stars](https://img.shields.io/github/stars/kanisterio/kanister?style=social&color=white)](https://github.com/kanisterio/kanister/stargazers)  
+  CNCF sandbox extensible framework for application-level data management on Kubernetes, enabling application-consistent snapshots, database backups, and data restore pipelines to AWS S3.
+
+- **[backup-and-bcp-for-aws](https://github.com/ned-kelly/backup-and-bcp-for-aws)** [![GitHub stars](https://img.shields.io/github/stars/ned-kelly/backup-and-bcp-for-aws?style=social&color=white)](https://github.com/ned-kelly/backup-and-bcp-for-aws/stargazers)  
+  Lambda-executed scripts for automated backups of core AWS infrastructure services (Route53, EBS, RDS, EFS) into S3 with cross-cloud synchronization into Google Cloud Storage for disaster recovery and business continuity.
+
+- **[terraform-aws-backup](https://github.com/lgallard/terraform-aws-backup)** [![GitHub stars](https://img.shields.io/github/stars/lgallard/terraform-aws-backup?style=social&color=white)](https://github.com/lgallard/terraform-aws-backup/stargazers)  
+  Battle-tested Terraform module for provisioning AWS Backup plans, lifecycle rules, cross-account/cross-region copies, and centralized policy enforcement across EBS, RDS, DynamoDB, and EFS.
+
+- **[aws-backup-automation](https://github.com/aws-samples/aws-backup-automation)** [![GitHub stars](https://img.shields.io/github/stars/aws-samples/aws-backup-automation?style=social&color=white)](https://github.com/aws-samples/aws-backup-automation/stargazers)  
+  Official AWS sample repository with CloudFormation templates and Python automation code for deploying centralized, cross-account AWS Backup architectures at enterprise scale.
+
+- **[aws-backup-actions-framework](https://github.com/aws-samples/aws-backup-actions-framework)** [![GitHub stars](https://img.shields.io/github/stars/aws-samples/aws-backup-actions-framework?style=social&color=white)](https://github.com/aws-samples/aws-backup-actions-framework/stargazers)  
+  Serverless event-driven automation framework triggering notifications, post-backup integrity validation, and automated remediation based on AWS Backup Amazon EventBridge events.
+
+- **[aws-backup-alarms](https://github.com/aws-samples/aws-backup-alarms)** [![GitHub stars](https://img.shields.io/github/stars/aws-samples/aws-backup-alarms?style=social&color=white)](https://github.com/aws-samples/aws-backup-alarms/stargazers)  
+  Centralized alerting and notification pipeline alerting on failed backup jobs, missed restore windows, and unauthorized modifications to AWS Organizations backup policies.
+
+- **[terraform-aws-backup (CloudDrove)](https://github.com/clouddrove/terraform-aws-backup)** [![GitHub stars](https://img.shields.io/github/stars/clouddrove/terraform-aws-backup?style=social&color=white)](https://github.com/clouddrove/terraform-aws-backup/stargazers)  
+  Modular Terraform blueprint for creating AWS Backup vaults, rules, selection tags, and scheduled snapshot jobs across AWS environments.
 
 ## How to Contribute
 
